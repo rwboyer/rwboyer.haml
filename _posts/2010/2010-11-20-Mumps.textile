@@ -1,0 +1,21 @@
+---
+layout: post
+title: Old Business Models Die Hard
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 Nov 2010 - A Flash Back To The 80's - Like A Bad LSD Trip
+
+Some technology markets astound me. Let's take the healthcare market. I am in the process of assisting a medical practice implement a new medical records system. To tell you the truth, this particular system is quite innovative. It's built the way I would build it, using technology I would choose today. It's delivered as in an ASP model and the client is specificly targed to run on the iPad. Very cool, easy to use, It talks "doctor" and knows all of the industry _diagnostic codes_ so that the process of translating the work done to the insurance carrier is _automagic_. It's actually the first system I have seen from a practice automation standpoint that I can really say I could jump on board with no caveats. As in "it looks okay for something in the medical industry". The secret is the people that are behind the company don't come from the _healtcare technology industry_. They come from the world the rest of us live in, you know the 21st century world.
+
+Enough with the preamble. So, this new system has to hook to the old system - a _state of the art_ practice management system to retrieve all the patient info that has already been keyed. No big deal right? Wrong! *Three thousand bucks*. I know what you're thinking. You're thinking "that's no so bad for coding a bridge to the old data". Well you're right, it's not but that is not what we're talking about here. That _coding_ from the new company is *FREE*. Actually there is no real coding, they have a pretty innovative bridge to a bunch of popular systems already done. They also have a bunch of hook-ups to automate ordering reports, diagnostics, etc. The $3000 bucks is to the *old* software company. 
+
+If you aren't as tenatious (read pain in the ass) as me, you may not even be curious as to what that $3000 gets you. Well after pulling some threads here is what it gets you. Get ready, hold onto your hats, strap in for this:
+
+The *THREE THOUSAND DOLLARS* buys you the old company installing an ODBC driver on a client machine that already exists and already has access to the old software *and* the old company types in the presumably hardcoded password to the ODBC driver so that _you can access data that you own on a database that you own on software that you own on hardware that you own_.
+
+Really - no shit. I can't make this stuff up. Great forking business model. Rape your existing customers for delivering no extra value on software that hasen't seen a new feature set in a decade. Brilliant stuff. These yo-yo's deserve to go out of business.
+
+RB
+:wq

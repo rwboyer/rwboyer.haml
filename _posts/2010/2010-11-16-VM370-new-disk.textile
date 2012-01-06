@@ -1,0 +1,19 @@
+---
+layout: post
+title: How to set up new DASD (disk) for use with VM/370 under hercules
+---
+
+h1. {{ page.title }}
+
+p(meta). 16 Nov 2010 - Just incase you want to know
+
+
+I am a bit rusty on my CP/CMS commands so I tried googling the syntax of something regarding DASD. What I found were about 300 endless threads about setting up new DASD for use as Mini Disks for CMS users. Most of the discussion was off on wild tangents and never really answered the newbie that asked the questions. Here is the long and short of it assuming you have the ever popular starter VM/370 system up and running in hercules.
+
+You will have to know a tiny bit of CMS like how to copy files and use the editor but not a whole lot of other things. This is sort of a place holder in case I have to refer some other people to it.
+
+<script src='http://pastie.org/1303542.js'></script>
+
+I am assuming you are logged on as MAINT and that you have made a copy of the default directory (I believe it is called "RELEASE6 DIRECT" on MAINT's 194 device) to USER DIRECT on your A minidisk all you need to do now is run DIRECT USER DIRECT and you should be golden. There is no reason to run DMKFMT card deck unless you are generating a new VM and want to setup a new directory, spool, etc. When you log in to your new user you do need to use the CMS FORMAT 191 A command.
+
+RB

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang='en-us' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <title>How to set up new DASD (disk) for use with VM/370 under hercules</title>
+    <meta content='Robert W Boyer' name='author' />
+    <link href='/css/screen.css' media='screen, projection' rel='stylesheet' type='text/css' />
+    <link href='/css/syntax.css' rel='stylesheet' type='text/css' />
+    <link href='/css/lightbox.css' media='screen' rel='stylesheet' type='text/css' />
+    <link href='/atom.xml' rel='alternate' title='ATOM feed for RB Design' type='application/atom+xml' />
+    <script src='http://use.typekit.com/tdf8txi.js' type='text/javascript'></script>
+    <script type='text/javascript'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        try{Typekit.load();}catch(e){}
+      //]]>
+    </script>
+    <script src='/js/prototype.js' type='text/javascript'></script>
+    <script src='/js/scriptaculous.js?load=effects,builder' type='text/javascript'></script>
+    <script src='/js/lightbox.js' type='text/javascript'></script>
+    <script type='text/javascript'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5733612-5']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </head>
+  <body>
+    <header class='page-header'><a href='/'>RB<span>CODE</span></a></header>
+    <div class='site'>
+      <div id='content'>
+        <div id='post'>
+  <h1>How to set up new <span class="caps">DASD</span> (disk) for use with VM/370 under hercules</h1>
+<p class="meta">16 Nov 2010 &#8211; Just incase you want to know</p>
+<p>I am a bit rusty on my CP/<span class="caps">CMS</span> commands so I tried googling the syntax of something regarding <span class="caps">DASD</span>. What I found were about 300 endless threads about setting up new <span class="caps">DASD</span> for use as Mini Disks for <span class="caps">CMS</span> users. Most of the discussion was off on wild tangents and never really answered the newbie that asked the questions. Here is the long and short of it assuming you have the ever popular starter VM/370 system up and running in hercules.</p>
+<p>You will have to know a tiny bit of <span class="caps">CMS</span> like how to copy files and use the editor but not a whole lot of other things. This is sort of a place holder in case I have to refer some other people to it.</p>
+<script src='http://pastie.org/1303542.js'></script><p>I am assuming you are logged on as <span class="caps">MAINT</span> and that you have made a copy of the default directory (I believe it is called &#8220;RELEASE6 <span class="caps">DIRECT</span>&#8221; on MAINT&#8217;s 194 device) to <span class="caps">USER</span> <span class="caps">DIRECT</span> on your A minidisk all you need to do now is run <span class="caps">DIRECT</span> <span class="caps">USER</span> <span class="caps">DIRECT</span> and you should be golden. There is no reason to run <span class="caps">DMKFMT</span> card deck unless you are generating a new VM and want to setup a new directory, spool, etc. When you log in to your new user you do need to use the <span class="caps">CMS</span> <span class="caps">FORMAT</span> 191 A command.</p>
+<p>RB</p>
+  <div id='disqus_thread'>
+    <script type='text/javascript'>
+      //<![CDATA[
+        var disqus_developer = location.host.match(/^ruby\.|^localhost/) ? 1 : 0;
+      //]]>
+    </script>
+    <script src='http://disqus.com/forums/dev-blog/embed.js' type='text/javascript'></script>
+    <noscript><a href="http;//rwboyer.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <div class='footer'>
+      <div class='contact'>
+        <p>
+          Robert W Boyer
+          <br />
+          Founder of
+          <a href='http://photo.rwboyer.com/'>RB Design</a>
+          rwboyer@mac.com
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

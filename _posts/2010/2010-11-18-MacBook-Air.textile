@@ -1,0 +1,29 @@
+---
+layout: post
+title: Brand New MacBook Air
+---
+
+h1. {{ page.title }}
+
+p(meta). 18 Nov 2010 - My Rationale For A Really Expensive 11.6" Air
+
+Normal people try to get the best quatifiable bang for their buck. Normal people that are willing to slam down $1400 in hard earned cash for a new MacBook Air no doubt end up getting the 13". I mean who the crap would spend that much on the 11.6 inch model? You would have to be out of your mind. Wouldn't you?
+
+Come on, the 13 has a better, bigger screen. It has a faster processor no matter how you slice it. It has a better, longer lasting battery. It has the same 4Gig of memory for the same dinero. Let's see - better - better - better. I'll take the less better one please. Yep, I maxed out everything on the 11.6 incher and it priced out pretty much the same as a better spec'd 13.3.
+
+You might say WTF - right. Maybe you are facing the same set of decisions and your highly trained auto reaction is to hit the buy button on the one that is "better. Here is some food for thought for you:
+
+* Both 11.6 and 13.3 are too too small to do "big screen" kind of work on where you need a ton of info blasted at you at the same time. This is the realm of 15"HD minium (if you like to squint to see the tiny stuff). I got that in my top of the line 15" MBP. Okay so you don't have one of those like me. And you also don't have a MacPro w/ 2x27" Cinemas like me. Great - get a 27" with a wireless keyboard and mouse for "big" work. Both of the MBA's will drive it fine.
+
+* Back on point - I am going to write and code on this thing while I am actually portable. I mean really portable. Make mine the small. When I write and/or code, activities that suck down a lot of my time, I _live_ in Terminal.app or full screen wordprocessor of the day (Pages, WriteRoom, Scrivener, etc.) These apps look great fullscreen on either MacBook Air. The look stupid in fullscreen HD+. Well at least they look stupid when you are in type the text mode.
+
+* For my real work pattern of work - close lid - think - open - type - close lid. The 11.6 batter will go all day. That's good enough for me.
+
+* 1.6Ghz C2D vs 1.83Ghz - for writing/codeing heck even compiling - as we all know unless you are rebuilding all of GNU over and over - anything you can buy (except and Atom) is too too fast to even catch a smoke and think before the build is done. 
+
+My MacBook Air intent is small and focused. I want the smallest and mosted focused device. So why did I max it out. Ummmm now that I think about it, maybe I shouldn't have. Ahh what the heck - 128G is not that much storage - I do like my HD. And you just gotta have 4G so you can fire up a couple of server images using Vagrant to test on, etc. Oh and I gotta run Aperture in a pinch without out growing old.
+
+Good luck with your decisions - I waffled on this since the annoucement and finally did the deed today.
+
+RB
+:wq

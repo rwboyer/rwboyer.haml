@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang='en-us' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
+    <title>For The Love Of Ruby</title>
+    <meta content='Robert W Boyer' name='author' />
+    <link href='/css/screen.css' media='screen, projection' rel='stylesheet' type='text/css' />
+    <link href='/css/syntax.css' rel='stylesheet' type='text/css' />
+    <link href='/css/lightbox.css' media='screen' rel='stylesheet' type='text/css' />
+    <link href='/atom.xml' rel='alternate' title='ATOM feed for RB Design' type='application/atom+xml' />
+    <script src='http://use.typekit.com/tdf8txi.js' type='text/javascript'></script>
+    <script type='text/javascript'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        try{Typekit.load();}catch(e){}
+      //]]>
+    </script>
+    <script src='/js/prototype.js' type='text/javascript'></script>
+    <script src='/js/scriptaculous.js?load=effects,builder' type='text/javascript'></script>
+    <script src='/js/lightbox.js' type='text/javascript'></script>
+    <script type='text/javascript'></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5733612-5']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+      //]]>
+    </script>
+  </head>
+  <body>
+    <header class='page-header'><a href='/'>RB<span>CODE</span></a></header>
+    <div class='site'>
+      <div id='content'>
+        <div id='post'>
+  <h1>For The Love Of Ruby</h1>
+<p class="meta">17 Apr 2010 &#8211; Along Way From Home</p>
+<p>Well, I am sick and tired of WordPress. Really I am sick of the whole mess that is <span class="caps">PHP</span> land. A long long time ago in a galaxy far far away, I was a software developer for about 18 years &#8211; accidently. You see I went to school for Physics and Math and chucked in a CompSci major for the fun of it then accidently spent 18 years screwing around with computer crap. Then I sort of semi-retired and did the commercial photography thing &#8211; then I got sick of it when it felt just like.</p>
+<p>Anyway here we are. Every time I mess around with my site I have to fix somebody&#8217;s crappy <span class="caps">PHP</span> code. The issue is some of the stuff I want to get done with it leaves me&#8230; dreading looking at the mess of fork-lift reuse and horrendously bad crap that is WordPress plug-in&#8217;s, themes, etc, etc. I really wouldn&#8217;t mind if it was even remotely elegant, clever, cool&#8230; pretty but it is not. When I came across this stuff in my professional life I &#8220;refactored&#8221; it &#8211; a nice way of saying ditch it and start over. The problem is that I really do not want to write software any more &#8211; if I did I would. The pay is fantastic. Now I enjoy fooling around with a few things here and there for pure recreation. When doing that I will only use the tools I actually love to use. I can write C in my sleep and as long as any code that touches mine is fantastically good I don&#8217;t mind that. Forget C++, not because it is bad &#8211; it is just the majority of the frameworks blow and again it is a hopeless mess done mostly by people that have not a clue. Cutting to the chase the two things I am willing to mess with at this point are Obj-C (just for the cool Cocoa frameworks so I can mess with new Apple stuff and my real love &#8211; Ruby.</p>
+<p>Not that Ruby is a holy grail or anything &#8211; it is just the community is sooooo.. much different. It seems that language, and all of the frameworks, and conventions, and tools were brought into existence by software developers &#8211; real ones. Where <span class="caps">PHP</span> and the world around it seems to be the creation of VB knuckle heads and a few McDonalds fry cooks that hacked around in a Wordpress theme for a couple of weeks to get it to work. So&#8230; I think I might abandon Wordpress, the entire reason I use it is that I didn&#8217;t want any &#8220;computer work&#8221; while publishing my little blog. Trying to navigate that WordPress plug-in mess to find things that actually work and work the way I want them to is a nightmare. If I am going to have to screw with this stuff for more than 10 minutes then I may as well just do it myself &#8211; or at least the parts that I want to.</p>
+<p>Here is my rediculously quick and dirty &#8220;conversion&#8221; of the old site with virtually no work. Behind the scenes there is a lot going on here, I just didn&#8217;t feel like dealling with the <span class="caps">CSS</span> for the other stuff yet. The really cool part is I actually wrote a custom WordPress converter in <span class="caps">IRB</span> that took 5 minutes with DataMapper and then grabbed a copy of the source of <a href="http://github.com/mojombo/jekyll">Jekyll</a> and coverted it to use <span class="caps">HAML</span> <span class="caps">AND</span> <span class="caps">SASS</span> so I wouldn&#8217;t have to blow my brains out closing <span class="caps">HTML</span> tags. Heck I use <span class="caps">HAML</span>/<span class="caps">SASS</span> to create any <span class="caps">HTML</span> or <span class="caps">CSS</span> that I have to do vs getting some sort of repetitive motion injuries from all the &lt;/screw you&gt; nonsence.</p>
+<p>The other really nice thing is that I can either host it statcally as I am doing over on <a href="http://rwboyer.github.com/">GitHub</a> or I can do it dynamically. The best part is for all the parts that need to be dynamic &#8211; as in server side code &#8211; I can just write them as lightweight web services with <span class="caps">RACK</span>/Sinatra. <br />
+Yes I think I am done with the whole <span class="caps">PHP</span>/Wordpress shitty ass mess.</p>
+<p>RB</p>
+  <div id='disqus_thread'>
+    <script type='text/javascript'>
+      //<![CDATA[
+        var disqus_developer = location.host.match(/^ruby\.|^localhost/) ? 1 : 0;
+      //]]>
+    </script>
+    <script src='http://disqus.com/forums/dev-blog/embed.js' type='text/javascript'></script>
+    <noscript><a href="http;//rwboyer.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <div class='footer'>
+      <div class='contact'>
+        <p>
+          Robert W Boyer
+          <br />
+          Founder of
+          <a href='http://photo.rwboyer.com/'>RB Design</a>
+          rwboyer@mac.com
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

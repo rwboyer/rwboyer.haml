@@ -1,0 +1,15 @@
+---
+layout: default
+title: Robert W Boyer
+---
+<div id='home'>
+  <h1>Posts</h1>
+  <ul class='posts'>
+    {% for post in site.posts %}
+    <li class='li'>
+      <span>{{ post.date | date:"%d %b %Y" }}</span>
+      <a href='{{ post.url }}'>{{ post.url }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
